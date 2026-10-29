@@ -20,6 +20,7 @@
   "name":"JellyLock",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"yellows","path":"sprites/yellows/yellows.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
