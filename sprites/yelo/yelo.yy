@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"yellows",
+  "%Name":"yelo",
   "bboxMode":0,
   "bbox_bottom":366,
   "bbox_left":0,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"2b87152e-df6f-468b-956b-41f04a442ef0","blendMode":0,"displayName":"default","isLocked":false,"name":"2b87152e-df6f-468b-956b-41f04a442ef0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"yellows",
+  "name":"yelo",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"yellows",
+    "%Name":"yelo",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"yellows",
+    "name":"yelo",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a53e41f1-aa14-46c4-961c-ba1771d04152","path":"sprites/yellows/yellows.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a53e41f1-aa14-46c4-961c-ba1771d04152","path":"sprites/yelo/yelo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"87398b75-41d7-4bd4-a7a8-bc6b497f737a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
