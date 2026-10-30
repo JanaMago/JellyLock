@@ -21,6 +21,7 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"gren","path":"sprites/gren/gren.yy",},},
+    {"id":{"name":"S_Grello","path":"sprites/S_Grello/S_Grello.yy",},},
     {"id":{"name":"yelo","path":"sprites/yelo/yelo.yy",},},
   ],
   "resourceType":"GMProject",
