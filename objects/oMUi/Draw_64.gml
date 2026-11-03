@@ -1,0 +1,1 @@
+draw_sprite(Mtempfore, 0, x, y)

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"JellyLock",
-    "path":"JellyLock.yyp",
+    "name":"globals",
+    "path":"folders/globals.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
