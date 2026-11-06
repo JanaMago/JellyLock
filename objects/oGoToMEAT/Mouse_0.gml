@@ -1,1 +1,1 @@
-room_goto(MEATGOODStart)
+room_goto(rMLevel1)

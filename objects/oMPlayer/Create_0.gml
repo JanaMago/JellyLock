@@ -14,7 +14,11 @@ _gravityMax = 24
 acceleration = 0
 maxAcceleration = 1
 accelerationCount = 0.075
+spd = 0
 
+transDir = ""
+trans = false
+gonext = false
 dead = false
 
 // jump logic
@@ -38,7 +42,7 @@ _gravityWallMax = 27
 runsfx = 0
 
 face = 0
-sprite[0] = MPlayerTest
+sprite[0] = MPlayerTest3
 
 //sprites and anims
 //face = 0;

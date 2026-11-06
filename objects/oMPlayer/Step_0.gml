@@ -97,9 +97,35 @@ if wallJumpDelay == 0
 		}
 	}
 
+	if _dir != 0
+	{
+		//slipperyness code
+		if prevDir != _dir
+		{
+			acceleration = 0
+			prevDir2 = xSpd
+		}
+		
+		xSpd = lengthdir_x(spd, 0)
+		
+		var Xchange = xSpd - previous_xSpd
+		var Ychange = ySpd - previous_ySpd
+
+		//friction
+		if Xchange > 3 || Ychange > 3 || Ychange < -3 || Xchange < -3
+		{
+			xSpd -= Xchange * _friction
+		}
+	}
+	else
+	{
+		prevDir2 = xSpd
+	    xSpd *= _friction
+	}
+
 	var _acceleration = acceleration / maxAcceleration
 
-	var _spd = (moveSpd * _dir * acceleration) + prevDir2
+	spd = (moveSpd * _dir * acceleration) + prevDir2
 	
 	prevDir2 = prevDir2 * 0.9
 
@@ -186,32 +212,6 @@ if wallJumpDelay == 0
 		{
 			_friction = 1
 		}
-	}
-
-	if _dir != 0
-	{
-		//slipperyness code
-		if prevDir != _dir
-		{
-			acceleration = 0
-			prevDir2 = xSpd
-		}
-		
-		xSpd = lengthdir_x(_spd, 0)
-		
-		var Xchange = xSpd - previous_xSpd
-		var Ychange = ySpd - previous_ySpd
-
-		//friction
-		if Xchange > 3 || Ychange > 3 || Ychange < -3 || Xchange < -3
-		{
-			xSpd -= Xchange * _friction
-		}
-	}
-	else
-	{
-		prevDir2 = xSpd
-	    xSpd *= _friction
 	}
 	
 	if onWall != 0 && !onGround && Space
@@ -335,7 +335,6 @@ if abs(xSpd) < 0.2
     xSpd = 0 
 }
 
-
 if !oMStart.fadeEnd
 {
 	if dead = true
@@ -348,6 +347,42 @@ if !oMStart.fadeEnd
 		//sfx can go here
 		
 		instance_destroy()
+	}
+}
+
+if !trans && !dead
+{
+	var next_room = noone
+	var next_direction = ""
+
+	if bbox_left >= room_width + 20
+	{
+		next_direction = "right"
+	}
+	else if bbox_right < 0 - 20
+	{
+		next_direction = "left"
+	}
+	else if bbox_bottom < 0 - 20
+	{
+		next_direction = "up"
+	}
+	else if bbox_top >= room_height + 20
+	{
+		next_direction = "down"
+	}
+
+	if next_direction != ""
+	{
+		next_room = MRoomConnecting(room, next_direction)
+		
+		if next_room != noone
+		{
+			transDir = next_direction
+			trans = true
+
+			room_goto(next_room)
+		}
 	}
 }
 	

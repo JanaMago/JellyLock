@@ -1,1 +1,1 @@
-draw_sprite(Mtempfore, 0, x, y)
+//draw_sprite(Mtempfore, 0, x, y)

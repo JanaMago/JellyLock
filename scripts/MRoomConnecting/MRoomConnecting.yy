@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MRoomConnecting",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MRoomConnecting",
+  "parent":{
+    "name":"MEATGOODgame",
+    "path":"folders/MEATGOODgame.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
