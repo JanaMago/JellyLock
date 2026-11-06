@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/MEATGOODgame/Sprites.yy",
+    "name":"Unused",
+    "path":"folders/MEATGOODgame/Unused.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

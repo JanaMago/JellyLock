@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"MPlayerTest3",
-    "path":"sprites/MPlayerTest3/MPlayerTest3.yy",
+    "name":"MPlayerTest5",
+    "path":"sprites/MPlayerTest5/MPlayerTest5.yy",
   },
   "spriteMaskId":{
     "name":"MPlayerHitbox",

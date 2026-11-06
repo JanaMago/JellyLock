@@ -42,7 +42,7 @@ _gravityWallMax = 27
 runsfx = 0
 
 face = 0
-sprite[0] = MPlayerTest3
+sprite[0] = MPlayerTest5
 
 //sprites and anims
 //face = 0;
