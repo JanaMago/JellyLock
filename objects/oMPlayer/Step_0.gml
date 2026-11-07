@@ -16,7 +16,7 @@ var Spaceheld = keyboard_check( vk_space )
 var Shift = keyboard_check( vk_shift )
 
 //comment to stop seeing speed
-show_debug_message(xSpd)
+//show_debug_message(xSpd)
 	
 //show_debug_message("Current room is " + room_get_name(room))
 
@@ -36,8 +36,8 @@ wallJumpDelay = max(wallJumpDelay - 1, 0)
 
 if Shift
 {
-	moveSpd = 12
-	wallJumpDistance = 11
+	moveSpd = 9
+	wallJumpDistance = 10
 	accelerationCount = 0.05
 }
 else
