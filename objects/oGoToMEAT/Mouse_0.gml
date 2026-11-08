@@ -1,1 +1,1 @@
-room_goto(rMLevel11)
+room_goto(rMLevel22)

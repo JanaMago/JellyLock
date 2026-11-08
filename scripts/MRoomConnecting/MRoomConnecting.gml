@@ -172,6 +172,16 @@ function MRoomConnecting(_room, _direction)
 				return rMLevel12
 			}
 			
+			case rMLevel14:
+			if _direction == "left" 
+			{
+				return rMLevel13
+			}
+			if _direction == "right" 
+			{
+				return rMLevel16
+			}
+			
 			case rMLevel15:
 			if _direction == "right" 
 			{
