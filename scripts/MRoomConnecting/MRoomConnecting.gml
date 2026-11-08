@@ -31,14 +31,14 @@ function MRoomConnecting(_room, _direction)
 			}
 			if _direction == "left" 
 			{
-				return rMLevel31
+				return rMLevel3_1
 			}
 			if _direction == "right" 
 			{
 				return rMLevel5
 			}
 			
-			case rMLevel31:
+			case rMLevel3_1:
 			if _direction == "down" 
 			{
 				return rMLevel1
@@ -77,14 +77,14 @@ function MRoomConnecting(_room, _direction)
 			case rMLevel7:
 			if _direction == "up" 
 			{
-				return rMLevel71
+				return rMLevel7_1
 			}
 			if _direction == "down" 
 			{
 				return rMLevel6
 			}
 			
-			case rMLevel71:
+			case rMLevel7_1:
 			if _direction == "right" 
 			{
 				return rMLevel8
@@ -101,7 +101,7 @@ function MRoomConnecting(_room, _direction)
 			}
 			if _direction == "left" 
 			{
-				return rMLevel71
+				return rMLevel7_1
 			}
 			
 			case rMLevel9:
@@ -118,6 +118,70 @@ function MRoomConnecting(_room, _direction)
 			if _direction == "up" 
 			{
 				return rMLevel9
+			}
+			if _direction == "right" 
+			{
+				return rMLevel11
+			}
+			
+			case rMLevel11:
+			if _direction == "left" 
+			{
+				return rMLevel10
+			}
+			if _direction == "up" 
+			{
+				return rMLevel12
+			}
+			
+			case rMLevel12:
+			if _direction == "right" 
+			{
+				return rMLevel12_1
+			}
+			if _direction == "up" 
+			{
+				return rMLevel13
+			}
+			if _direction == "down" 
+			{
+				return rMLevel11
+			}
+			
+			case rMLevel12_1:
+			if _direction == "left" 
+			{
+				return rMLevel12
+			}
+			if _direction == "up" 
+			{
+				return rMLevel14
+			}
+			
+			case rMLevel13:
+			if _direction == "left" 
+			{
+				return rMLevel15
+			}
+			if _direction == "right" 
+			{
+				return rMLevel14
+			}
+			if _direction == "down" 
+			{
+				return rMLevel12
+			}
+			
+			case rMLevel15:
+			if _direction == "right" 
+			{
+				return rMLevel13
+			}
+			
+			case rMLevel16:
+			if _direction == "left" 
+			{
+				return rMLevel14
 			}
 
 		break;
