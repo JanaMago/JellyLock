@@ -77,6 +77,21 @@ function MRoomConnecting(_room, _direction)
 			{
 				return rMLevel5
 			}
+			if _direction == "left" 
+			{
+				return rMLevel6_1
+			}
+		break;
+		
+		case rMLevel6:
+			if _direction == "right" 
+			{
+				return rMLevel6
+			}
+			if _direction == "down" 
+			{
+				return rMLevel3
+			}
 		break;
 		
 		case rMLevel7:
@@ -109,6 +124,17 @@ function MRoomConnecting(_room, _direction)
 			if _direction == "left" 
 			{
 				return rMLevel7_1
+			}
+			if _direction == "down" 
+			{
+				return rMLevel8_1
+			}
+		break;
+		
+		case rMLevel8_1:
+			if _direction == "up" 
+			{
+				return rMLevel8
 			}
 		break;
 		
@@ -206,6 +232,17 @@ function MRoomConnecting(_room, _direction)
 			{
 				return rMLevel13
 			}
+			if _direction == "up" 
+			{
+				return rMLevel15_1
+			}
+		break;
+		
+		case rMLevel15_1:
+			if _direction == "down" 
+			{
+				return rMLevel15
+			}
 		break;
 		
 		case rMLevel16:
@@ -297,6 +334,17 @@ function MRoomConnecting(_room, _direction)
 			if _direction == "up" 
 			{
 				return rMLevel23
+			}
+			if _direction == "down" 
+			{
+				return rMLevel22_1
+			}
+		break;
+		
+		case rMLevel22_1:
+			if _direction == "up" 
+			{
+				return rMLevel22
 			}
 		break;
 			
