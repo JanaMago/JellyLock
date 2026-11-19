@@ -44,6 +44,8 @@ runsfx = 0
 face = 0
 sprite[0] = MPlayerTest5
 
+testscreenshot = 0
+
 //sprites and anims
 //face = 0;
 //sprite[0] = testplayeridle

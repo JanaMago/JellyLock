@@ -352,7 +352,7 @@ if !oMStart.fadeEnd
 
 if !trans && !dead
 {
-	var next_room = noone
+	var next_room = -1
 	var next_direction = ""
 
 	if bbox_left >= room_width + 20
@@ -376,7 +376,7 @@ if !trans && !dead
 	{
 		next_room = MRoomConnecting(room, next_direction)
 		
-		if next_room != noone
+		if room_exists(next_room)
 		{
 			transDir = next_direction
 			trans = true

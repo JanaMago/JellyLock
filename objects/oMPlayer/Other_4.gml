@@ -1,3 +1,5 @@
+testscreenshot = 0
+
 if trans
 {
     switch (transDir)
