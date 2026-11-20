@@ -83,7 +83,7 @@ function MRoomConnecting(_room, _direction)
 			}
 		break;
 		
-		case rMLevel6:
+		case rMLevel6_1:
 			if _direction == "right" 
 			{
 				return rMLevel6
@@ -379,6 +379,502 @@ function MRoomConnecting(_room, _direction)
 			if _direction == "up" 
 			{
 				return rMLevel26
+			}
+		break;
+		
+		case rMLevel26:
+			if _direction == "down" 
+			{
+				return rMLevel25
+			}
+			
+			if _direction == "up" 
+			{
+				return rMLevel27
+			}
+		break;
+		
+		case rMLevel27:
+			if _direction == "down" 
+			{
+				return rMLevel26
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel28
+			}
+		break;
+		
+		case rMLevel28:
+			if _direction == "left" 
+			{
+				return rMLevel27
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel29
+			}
+		break;
+		
+		case rMLevel29:
+			if _direction == "left" 
+			{
+				return rMLevel28
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel30
+			}
+		break;
+		
+		case rMLevel30:
+			if _direction == "left" 
+			{
+				return rMLevel29
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel31
+			}
+		break;
+		
+		case rMLevel31:
+			if _direction == "up" 
+			{
+				return rMLevel30
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel32
+			}
+		break;
+		
+		case rMLevel32:
+			if _direction == "up" 
+			{
+				return rMLevel31
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel33
+			}
+		break;
+		
+		case rMLevel33:
+			if _direction == "up" 
+			{
+				return rMLevel32
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel34
+			}
+		break;
+		
+		case rMLevel34:
+			if _direction == "up" 
+			{
+				return rMLevel33
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel35
+			}
+		break;
+		
+		case rMLevel35:
+			if _direction == "up" 
+			{
+				return rMLevel34
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel36
+			}
+		break;
+		
+		case rMLevel36:
+			if _direction == "up" 
+			{
+				return rMLevel37
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel35
+			}
+		break;
+		
+		case rMLevel37:
+			if _direction == "up" 
+			{
+				return rMLevel37_1
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel38
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel36
+			}
+		break;
+		
+		case rMLevel37_1:
+			if _direction == "down" 
+			{
+				return rMLevel37
+			}
+		break;
+		
+		case rMLevel38:
+			if _direction == "up" 
+			{
+				return rMLevel39
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel37
+			}
+		break;
+		
+		case rMLevel39:
+			if _direction == "up" 
+			{
+				return rMLevel40
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel38
+			}
+		break;
+		
+		case rMLevel40:
+			if _direction == "up" 
+			{
+				return rMLevel41
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel39
+			}
+		break;
+		
+		case rMLevel41:
+			if _direction == "up" 
+			{
+				return rMLevel42
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel40
+			}
+		break;
+		
+		case rMLevel42:
+			if _direction == "up" 
+			{
+				return rMLevel43
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel41
+			}
+		break;
+		
+		case rMLevel43:
+			if _direction == "up" 
+			{
+				return rMLevel44
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel42
+			}
+		break;
+		
+		case rMLevel44:
+			if _direction == "up" 
+			{
+				return rMLevel45
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel43
+			}
+		break;
+		
+		case rMLevel45:
+			if _direction == "left" 
+			{
+				return rMLevel46
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel44
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel47
+			}
+			
+		case rMLevel46:
+			if _direction == "left" 
+			{
+				return rMLevel46_1
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel45
+			}
+		break;
+		
+		case rMLevel46_1:
+			if _direction == "left" 
+			{
+				return rMLevel46_2
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel46
+			}
+		break;
+		
+		case rMLevel46_2:
+			if _direction == "left" 
+			{
+				return rMLevel46_2_1
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel46_1
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel46_3
+			}
+		break;
+		
+		case rMLevel46_2_1:
+			if _direction == "left" 
+			{
+				return rMLevel46_2_2
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel46_2
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel46_3_1
+			}
+		break;
+		
+		case rMLevel46_2_2:		
+			if _direction == "right" 
+			{
+				return rMLevel46_2_1
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel46_3_2
+			}
+		break;
+		
+		case rMLevel46_3:
+			if _direction == "up" 
+			{
+				return rMLevel46_2
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel46_3_1
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel46_4
+			}
+		break;
+		
+		case rMLevel46_3_1:
+			if _direction == "up" 
+			{
+				return rMLevel46_2_1
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel46_3
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel46_3_2
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel46_4_1
+			}
+		break;
+		
+		case rMLevel46_3_2:
+			if _direction == "up" 
+			{
+				return rMLevel46_2_2
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel46_3_1
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel46_4_2
+			}
+		break;
+		
+		case rMLevel46_4:
+			if _direction == "left" 
+			{
+				return rMLevel46_4_1
+			}
+			
+			if _direction == "up" 
+			{
+				return rMLevel46_3
+			}
+		break;
+		
+		case rMLevel46_4_1:
+			if _direction == "left" 
+			{
+				return rMLevel46_4_2
+			}
+			
+			if _direction == "up" 
+			{
+				return rMLevel46_3_1
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel46_4
+			}
+		break;
+		
+		case rMLevel46_4_2:		
+			if _direction == "up" 
+			{
+				return rMLevel46_3_2
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel46_4_1
+			}
+		break;
+		
+		case rMLevel47:		
+			if _direction == "up" 
+			{
+				return rMLevel49_1
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel48
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel45
+			}
+		break;
+		
+		case rMLevel48:		
+			if _direction == "up" 
+			{
+				return rMLevel49
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel48_1
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel47
+			}
+		break;
+		
+		case rMLevel49:		
+			if _direction == "up" 
+			{
+				return rMLevel51
+			}
+			
+			if _direction == "right" 
+			{
+				return rMLevel50
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel49_1
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel48
+			}
+		break;
+		
+		case rMLevel50:		
+			if _direction == "up" 
+			{
+				return rMLevel51_1
+			}
+			
+			if _direction == "down" 
+			{
+				return rMLevel48_1
+			}
+			
+			if _direction == "left" 
+			{
+				return rMLevel49
 			}
 		break;
 	}
