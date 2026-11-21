@@ -125,7 +125,7 @@ if wallJumpDelay == 0
 
 	var _acceleration = acceleration / maxAcceleration
 
-	spd = (moveSpd * _dir * acceleration) + prevDir2
+	spd = (moveSpd * _dir * _acceleration) + prevDir2
 	
 	prevDir2 = prevDir2 * 0.9
 
@@ -183,7 +183,7 @@ if wallJumpDelay == 0
 			}
 		}
 		
-		_friction = 0.2;
+		_friction = maxfriction
 	}
 	else 
 	{

@@ -1,1 +1,1 @@
-room_goto(rMLevel50)
+room_goto(rMLevel1)

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"Shading",
+  "name":"Shading",
+  "parent":{
+    "name":"MEATGOODgame",
+    "path":"folders/MEATGOODgame.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

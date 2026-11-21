@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"MPlayerTest5",
-    "path":"sprites/MPlayerTest5/MPlayerTest5.yy",
+    "name":"flaughttest2",
+    "path":"sprites/flaughttest2/flaughttest2.yy",
   },
   "spriteMaskId":{
     "name":"MPlayerHitbox",
